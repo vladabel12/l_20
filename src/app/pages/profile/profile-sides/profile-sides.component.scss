@@ -1,0 +1,41 @@
+.sides{
+    &__container{
+        background-color: #fff;
+        padding: 0 30px 20px 30px;
+    }
+    &__title{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        color: #595085;
+        margin-bottom: 8px;
+    }
+    &__elements{
+        display: flex;
+        justify-content: start;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    &__info{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        max-width: 96px;
+
+    }
+}
+.strong-div{
+    background: #f5f9f9;
+}
+.strong-text{
+    color: #479696;
+}
+
+.weak-div{
+    background: #fff4f4;
+}
+.weak-text{
+    color: #ff7e73;
+}

@@ -1,0 +1,28 @@
+.sidebar{
+    background-color: #fff;
+    padding: 0 29px 30px 30px;
+    &__container{
+        max-width: 315px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 49px;
+    }
+}
+.active-link{
+    color: #3D3270;
+    transition: .2s all ease-in-out;
+
+    &:hover{
+        transform: scale(1.1); 
+    }
+}
+.link{
+    color: #8B97A8;
+    transition: .2s all ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+        color: #3D3270; 
+    }
+}

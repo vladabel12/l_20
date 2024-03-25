@@ -1,0 +1,27 @@
+.header{
+    padding: 0 29px;
+    background: #fff;
+    padding-top: 54px;
+    padding-bottom: 14px;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #595085;
+}
+.header-icons{
+    color: #8B97A8;
+    transition: .2s all ease-in-out;
+
+    &:hover{
+        transform: scale(1.2); 
+        color: #595085;
+    }
+}

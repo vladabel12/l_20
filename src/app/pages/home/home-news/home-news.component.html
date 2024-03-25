@@ -1,0 +1,16 @@
+<div class="news">
+    <div class="news__container">
+        <div class="news__title">
+            News
+        </div>
+        <div class="news__elements">
+            <div class="news__info first">Short news title will be here</div>
+            <div class="news__info second">Short news title will be here</div>
+        </div>
+            <div class="list">
+                <div *ngFor="let document of news">
+                    {{document.title}}
+                </div>
+            </div>
+    </div>
+</div>
