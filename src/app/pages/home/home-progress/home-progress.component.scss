@@ -1,14 +1,15 @@
+@import 'vars';
 a{
     text-decoration: none;
 }
 .progress{
-    background-color: #fff;
+    background-color: var(--body-color);
     padding: 15px 30px 40px 30px;
     &__title{
         font-family: Roboto;
         font-weight: 300;
         font-size: 18px;
-        color: #595085;
+        color: var(--title-color);
         padding-bottom: 10px;
         position: relative;
         display: inline-block;
@@ -21,7 +22,7 @@ a{
             left: 0; 
             width: 70%; 
             height: 4px; 
-            background-color: #c93f8d; 
+            background-color: var(--border-color); 
             border-radius: 5px;
         }
     }
@@ -66,7 +67,7 @@ a{
 .percent{
     margin-left: 7px;
     font-weight: 400;
-    color: #c93f8d;
+    color: var(--border-color);
 }
 .arrow-icon{
     transition: .2s all ease-in-out;
@@ -76,19 +77,19 @@ a{
     }
 }
 .calendar-div{
-    background-color: #f6f5fb;
+    background-color: var(--first-component-color);
 }
 .calendar-icon, .calendar-arrow, .calendar-anagraph, .calendar-description{
-    color: #403572;
+    color: var(--first-number-color);
 }
 
 .clock-div{
-    background: #fff4f4;
+    background: var(--second-object-color);
 }
 .clock-icon, .clock-arrow, .clock-anagraph{
-    color: #FF5648;
+    color: var(--second-number-color);
 }
 .clock-description{
-    color: #a27a7a;
+    color: var(--second-desc-color);
     opacity: 0.7;
 }

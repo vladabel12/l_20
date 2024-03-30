@@ -3,6 +3,13 @@
         <app-header></app-header>
         <div class="container">
             <router-outlet></router-outlet>
+            <div class="input">
+                <input type="text" placeholder="text" [(ngModel)]="inputText">
+                <div *ngIf="inputText === 'secret'">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corporis optio a aperiam dicta aliquam, quisquam maxime consequuntur fugit natus suscipit dolor cum laboriosam delectus expedita tempore aliquid iusto non accusamus magni labore aut incidunt velit? Quod earum neque architecto consequuntur eos natus, fugit error aliquid, omnis et dolore cumque, molestias quia esse deleniti libero similique deserunt? Eius cumque odit esse ab accusantium adipisci, necessitatibus soluta, incidunt quidem laborum quis corporis modi saepe dicta pariatur explicabo reiciendis ducimus. Autem, optio perspiciatis. Impedit culpa deserunt expedita? Inventore beatae incidunt odio, consequatur dicta optio quo perferendis sapiente, officia ipsum necessitatibus animi. Consectetur.
+                </div>
+            </div>
+            <app-progress (sendDataToParent)="receiveDataFromChild($event)" [progress]="30"></app-progress>
         </div>
         <app-sidebar></app-sidebar>
     </div>

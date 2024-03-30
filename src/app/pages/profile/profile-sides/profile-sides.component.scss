@@ -1,13 +1,14 @@
+@import 'vars';
 .sides{
     &__container{
-        background-color: #fff;
+        background-color: var(--body-color);
         padding: 0 30px 20px 30px;
     }
     &__title{
         font-family: Roboto;
         font-weight: 500;
         font-size: 14px;
-        color: #595085;
+        color: var(--title-color);
         margin-bottom: 8px;
     }
     &__elements{
@@ -27,15 +28,15 @@
     }
 }
 .strong-div{
-    background: #f5f9f9;
+    background: var(--third-component-color);
 }
 .strong-text{
-    color: #479696;
+    color: var(--third-name-color);
 }
 
 .weak-div{
-    background: #fff4f4;
+    background: var(--second-object-color);
 }
 .weak-text{
-    color: #ff7e73;
+    color: var(--text-sides-color);
 }

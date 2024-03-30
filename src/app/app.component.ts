@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mobile';
+  receiveDataFromChild(data: string){
+    console.log('Data receivedfrom child:', data);
+  }
+  public inputText = ''
 }

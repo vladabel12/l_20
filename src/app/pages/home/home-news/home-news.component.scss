@@ -1,12 +1,12 @@
 .news{
-    background-color: #fff;
+    background-color: var(--body-color);
     padding: 26px 29px 40px 30px;
 
     &__title{
         font-family: Roboto;
         font-weight: 300;
-        font-size: 24px;
-        color: #595085;
+        font-size: 1.5rem;
+        color: var(--title-color);
         margin-bottom: 15px;
     }
     &__elements{
@@ -21,7 +21,7 @@
         font-family: Roboto;
         font-weight: 500;
         font-size: 12px;
-        color: #fff;
+        color: var(--body-color);
         border-radius: 15px;
     }
 }
@@ -41,5 +41,5 @@
 }
 .second{
     box-shadow: 0 15px 25px 0 rgba(90, 116, 142, 0.15);
-background: linear-gradient(90deg, #25196b 0%, #94d9b4 100%);
+    background: linear-gradient(90deg, #25196b 0%, #94d9b4 100%);
 }

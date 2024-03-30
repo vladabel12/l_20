@@ -1,0 +1,11 @@
+<div class="progress">
+    <div class="progress__name-title">
+        <div class="progress__title">
+            Your overall progress is<span class="percent">{{progress}}%</span>
+        </div>
+        <div class="progress__path">
+            <div class="progress__path-fill" [style.width]="progress + '%'"></div>
+        </div>
+    </div>
+    <button (click)="sendData()">Send Data to Parent</button>
+</div>

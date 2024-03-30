@@ -1,6 +1,7 @@
+@import 'vars';
 .header{
     padding: 0 29px;
-    background: #fff;
+    background: var(--body-color);
     padding-top: 54px;
     padding-bottom: 14px;
 }
@@ -14,14 +15,17 @@
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: #595085;
+    color: var(--title-color);
 }
 .header-icons{
-    color: #8B97A8;
+    color: var(--header-icons-color);
     transition: .2s all ease-in-out;
 
     &:hover{
         transform: scale(1.2); 
-        color: #595085;
+        color: var(--title-color);
     }
+}
+.is-active{
+    display: none;
 }

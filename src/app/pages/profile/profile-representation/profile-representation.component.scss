@@ -1,7 +1,8 @@
+@import 'vars';
 .representation{
     &__container{
     padding: 26px 68px 30px 30px;
-    background-color: #fff;
+    background-color: var(--body-color);
     display: flex;
     justify-content: start;
     gap: 30px;
@@ -12,14 +13,14 @@
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
-        color: #595085;
+        color: var(--title-color);
         margin-bottom: 4px;
     }
     &__profession{
         font-family: Roboto;
         font-weight: 400;
         font-size: 14px;
-        color: #595085;
+        color: var(--title-color);
         opacity: 0.6;
         margin-bottom: 11px;
     }
@@ -29,7 +30,7 @@
         font-size: 12px;
         text-decoration: underline;
         text-decoration-skip-ink: none;
-        color: #595085;
+        color: var(--title-color);
         transition: .2s all ease-in-out;
 
         &:hover{

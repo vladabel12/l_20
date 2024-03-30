@@ -1,12 +1,13 @@
+@import 'vars';
 .reports{
-    background-color: #fff;
+    background-color: var(--body-color);
     padding: 0 29px 13px 29px;
 
     &__title{
         font-family: Roboto;
         font-weight: 300;
         font-size: 24px;
-        color: #595085;
+        color: var(--title-color);
         margin-bottom: 15px;
     }
     &__elements{
@@ -38,13 +39,13 @@
     }
 }
 .astro-info{
-    background-color: #f6f5fb;
+    background-color: var(--first-component-color);
 }
 .astro-icon{
-    color: #3D3270;
+    color: var(--first-icon-color);
 }
 .astro-text, .astro-desc{
-    color: #403572;
+    color: var(--first-number-color);
 }
 .astro-desc, .daily-desc{
     opacity: 0.5;
@@ -52,33 +53,33 @@
 
 
 .monthly-info{
-    background-color: #f5f9f9;
+    background-color: var(--third-component-color);
 }
 .monthly-icon, .monthly-text{
-    color: #479696;
+    color: var(--third-name-color);
 }
 .monthly-desc, .love-desc{
-    color: #8daeae;
+    color: var(--fourth-desc-color);
     opacity: 0.7;
 }
 
 .daily-info{
-    background: #fff4f4;
+    background: var(--second-component-color);
 }
 .daily-icon, .daily-text{
-    color: #FF5648;
+    color: var(--second-number-color);
 }
 .daily-desc{
-    color: #a27a7a;
+    color: var(--second-desc-color);
 }
 
 
 .love-info{
-    background: #fff4f4;
+    background: var(--second-object-color);
 }
 .love-icon, .love-text{
-    color: #C93F8D;
+    color: var(--border-color);
 }
 .love-desc{
-    color: #e791be;
+    color: var(--third-desc-color);
 }

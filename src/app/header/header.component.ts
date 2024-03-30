@@ -7,7 +7,7 @@ import { GlobalService } from '../global.service';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  public navToggle = false
   //Команда для зміни title в header
   constructor(public global:GlobalService){}
   //Команда для зміни title в header
